@@ -169,3 +169,4 @@ ifneq ($(wildcard $(srctree)/../kernel-t18x/drivers/Makefile),)
 obj-$(CONFIG_ARCH_TEGRA_18x_SOC) += ../../kernel-t18x/drivers/
 endif
 obj-$(CONFIG_ANDROID)		+= android/
+obj-$(CONFIG_TSPDRV)		+= tspdrv/
