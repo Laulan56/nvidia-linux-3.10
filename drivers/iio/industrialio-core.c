@@ -83,6 +83,12 @@ const char * const iio_chan_type_name_spec[] = {
 	[IIO_GESTURE_GLANCE] = "gestureglance",
 	[IIO_GESTURE_PICKUP] = "gesturepickup",
 	[IIO_GENERIC] = "generic_sensor",
+	[IIO_SIGN_MOTION] = "sign_motion",
+	[IIO_QUATERNION] = "quaternion",
+	[IIO_STEP_DETECTOR] = "step_detector",
+	[IIO_STEP_COUNTER] = "step_counter",
+	[IIO_EULER_ANGLES] = "euler",
+	[IIO_LINEAR_ACCEL] = "linear_accel",
 };
 EXPORT_SYMBOL(iio_chan_type_name_spec);
 
@@ -106,7 +112,9 @@ static const char * const iio_modifier_names[] = {
 	[IIO_MOD_Y_BIAS] = "y_bias",
 	[IIO_MOD_Z_BIAS] = "z_bias",
 	[IIO_MOD_STATUS] = "status",
-	[IIO_MOD_BPM] = "bpm"
+	[IIO_MOD_BPM] = "bpm",
+	[IIO_MOD_MODULE] = "module",
+	[IIO_MOD_ACCURACY] = "accuracy",
 };
 
 /* relies on pairs of these shared then separate */
